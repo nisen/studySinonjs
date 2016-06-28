@@ -1,0 +1,28 @@
+{
+  "name": "firmata",
+  "description": "Firmata protocol implementation for programmatic interaction with Arduino and Arduino compatible development boards.",
+  "version": "0.12.0",
+  "author": "Julian Gautier",
+  "license": "MIT",
+  "homepage": "http://www.github.com/firmata/firmata.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/firmata/firmata.js.git"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "expect.js": "~0.3.1",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.11.3",
+    "grunt-jsbeautifier": "~0.2.10",
+    "grunt-jscs": "~2.1.0",
+    "grunt-mocha-test": "~0.12.7",
+    "mocha": "^2.3.x",
+    "should": "^9.0.2",
+    "sinon": "~1.17.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "grunt"
+  }
+}
